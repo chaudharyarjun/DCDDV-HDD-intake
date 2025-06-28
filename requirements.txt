@@ -8,7 +8,7 @@ wheel==0.42.0
 Flask==3.0.0
 pytesseract==0.3.10
 opencv-python==4.9.0.80
-numpy==1.26.4
+numpy==2.1.1
 
 # Force Pillow to use binary wheel (avoids source build issues)
 --only-binary=:all: Pillow==10.3.0
