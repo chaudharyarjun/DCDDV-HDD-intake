@@ -1,14 +1,6 @@
-# requirements.txt
-
-# Ensure stable build tools
-setuptools==68.2.2
-wheel==0.42.0
-
-# Your core packages
 Flask==3.0.0
+gunicorn==21.2.0
 pytesseract==0.3.10
-opencv-python==4.9.0.80
-numpy==1.26.4
-
-# Force Pillow to use binary wheel (avoids source build issues)
---only-binary=:all: Pillow==10.3.0
+opencv-python==4.8.1.78
+numpy==1.26.3
+Pillow==10.3.0
